@@ -1,3 +1,39 @@
 #root {
   text-align: center;
 }
+
+body {
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+
+.App.light {
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+.App.dark {
+  background-color: #333;
+  color: #ffffff;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
